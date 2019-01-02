@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <title>JMS</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    </h:head>
+
+    <h:body>
+        <h:form>
+            <h:outputLabel value="Enviar pedido:"/>
+            <h:commandButton value="Enviar" actionListener="#{sendOrderBean.sendOrder()}"/>
+        </h:form>
+    </h:body>
+</html>
